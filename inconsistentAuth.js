@@ -1,0 +1,1 @@
+The Firebase Authentication SDK's `onAuthStateChanged` listener might not trigger consistently if the user's session changes rapidly, such as during multiple sign-in/sign-out attempts in quick succession. This can lead to unexpected behavior or data inconsistencies in your application.
